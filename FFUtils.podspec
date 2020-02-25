@@ -14,4 +14,5 @@ Pod::Spec.new do |spec|
   spec.authors      = { 'Cleber Todeschini' => 'clebertodeschini@gmail.com' }
   spec.summary      = 'FFUtils.'
   spec.source       = { :git => 'https://github.com/clebertodeschini/FFUtils.git' }
+  spec.source_files = 'FFUtils.{h,m}'
 end
