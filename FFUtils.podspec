@@ -15,4 +15,5 @@ Pod::Spec.new do |spec|
   spec.summary      = 'FFUtils.'
   spec.source       = { :git => 'https://github.com/clebertodeschini/FFUtils.git' }
   spec.source_files = 'FFUtils/**/*.{h,m,swift}'
+  spec.ios.deployment_target  = '9.0'
 end
