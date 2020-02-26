@@ -16,5 +16,5 @@ Pod::Spec.new do |spec|
   spec.authors      = { 'FelipeGus' => 'felipegusfigueiredo@gmail.com' }  
   spec.source       = { :git => 'https://github.com/clebertodeschini/FFUtils.git', :tag => '0.1.4' }
   spec.source_files = 'FFUtils/Classes/**/*'
-  spec.platforms  = { 'ios' => '10.0'
+  spec.platform     = { :ios => '10.0' }
 end
