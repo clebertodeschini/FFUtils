@@ -10,7 +10,6 @@ Pod::Spec.new do |spec|
   spec.name         = 'FFUtils'
   spec.version      = '0.1.4'
   spec.summary      = 'FFUtils is a collection of utilities and helpers.'
-  spec.description  = 'FFutils is a collection of utilities that I usually use within many projects. Its purpose is to make a project setup faster.'
   spec.homepage     = 'https://github.com/FelipeGus/FFUtils'
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   spec.authors      = { 'FelipeGus' => 'felipegusfigueiredo@gmail.com' }  
