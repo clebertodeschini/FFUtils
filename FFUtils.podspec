@@ -8,12 +8,13 @@
 
 Pod::Spec.new do |spec|
   spec.name         = 'FFUtils'
-  spec.version      = '1.0.0'
-  spec.license      = { :type => 'BSD' }
-  spec.homepage     = 'https://github.com/clebertodeschini/FFUtils'
-  spec.authors      = { 'Cleber Todeschini' => 'clebertodeschini@gmail.com' }
-  spec.summary      = 'FFUtils.'
-  spec.source       = { :git => 'https://github.com/clebertodeschini/FFUtils.git' }
-  spec.source_files = 'FFUtils/**/*.{h,m,swift}'
-  spec.ios.deployment_target  = '9.0'
+  spec.version      = '0.1.4'
+  spec.summary      = 'FFUtils is a collection of utilities and helpers.'
+  spec.description  = 'FFutils is a collection of utilities that I usually use within many projects. Its purpose is to make a project setup faster.'
+  spec.homepage     = 'https://github.com/FelipeGus/FFUtils'
+  spec.license      = { :type => 'MIT', :file => 'LICENSE' }
+  spec.authors      = { 'FelipeGus' => 'felipegusfigueiredo@gmail.com' }  
+  spec.source       = { :git => 'https://github.com/clebertodeschini/FFUtils.git', :tag => '0.1.4' }
+  spec.source_files = 'FFUtils/Classes/**/*'
+  spec.platforms  = { 'ios' => '10.0'
 end
